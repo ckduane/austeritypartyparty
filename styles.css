@@ -1,14 +1,21 @@
 body {
   background: #420042;
 }
-div {
+.container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   height: 100vh;
 }
-img {
-  height: 100px;
-  margin: -10px;
+.image {
+  background-repeat: no-repeat;
+  background-position-x: center;
+  height: 89px;
+  width: 100%;
+}
+.austerity {
+  background-image: url('https://www.gigaglitters.com/created/hlupPRQQpM.gif');
+}
+.party {
+  background-image: url('https://www.gigaglitters.com/created/BikqzCA9tI.gif');
 }
